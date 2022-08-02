@@ -18,7 +18,7 @@ metadata:
   name: wordcount
 spec:
   image:
-    name: { .Values.image }
+    name: {{ .Values.image }}
   jobManager:
     ports:
       ui: 8081
