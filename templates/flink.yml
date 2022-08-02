@@ -18,7 +18,7 @@ metadata:
   name: wordcount
 spec:
   image:
-    name: flink:1.9.3
+    name: { .Values.image }
   jobManager:
     ports:
       ui: 8081
